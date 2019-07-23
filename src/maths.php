@@ -1,11 +1,9 @@
 <?php
 namespace dothemaths;
 class maths
-{   public $x = 1;
-    public $y = 5;
-    public static function addvalue()
+{  
+    public static function addvalue($x,$y)
     {
-        return "addition :".$x+$y ;
+        return $x+$y ;
     }
 }
-?>
